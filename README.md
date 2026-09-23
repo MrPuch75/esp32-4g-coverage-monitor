@@ -10,9 +10,13 @@ Real-time diagnostic and monitoring system designed for mobile radio repeaters a
 
 ---
 
-## 🎯 Use Case
+## 🎯 Real-World Use Case & Problem Statement
 
-During field operations and mobile radio repeater maintenance, checking cellular signal quality typically requires logging into the router's web interface. This portable device resolves that constraint by delivering immediate signal strength readings in **dBm** alongside visual diagnostic alerts for read failures, missing SIM cards, or loss of network connectivity.
+Mobile radio repeaters rely on IP connectivity (**Radio over IP - RoIP**) to bridge regional radio traffic (talkgroups, dispatch consoles, and handheld walkie-talkies) across digital radio networks (such as DMR, TETRA, or P25).
+
+In temporary or mobile deployments, internet connectivity is provided via an industrial 4G router. If 4G signal degrades or drops entirely, the repeater loses its backhaul link, rendering voice communications non-operational. 
+
+This hardware diagnostic tool provides instant, on-site visibility into the router's 4G connection status and cellular signal strength (in dBm). Field technicians can immediately verify if the repeater is fully operational as a radio link or if the vehicle/antenna needs repositioning to restore communication services.
 
 ---
 
